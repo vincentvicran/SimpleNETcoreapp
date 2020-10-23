@@ -1,0 +1,1 @@
+I found an XKB configuration file located at /usr/share/X11/xkb/symbols/us and modify it by adding modifier_map Mod3 { Scroll_Lock }; in xkb_symbols "basic" After that, I did a reset to the XKB layout cache by executing sudo rm -f /var/lib/xkb/* and sudo rm -f /var/lib/lib/xkb/*
